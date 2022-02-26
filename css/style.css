@@ -41,3 +41,31 @@ section {
 .flexible-container {
   display: flex;
 }
+.full-web,
+.baby-web {
+  box-shadow: 20px 20px 50px grey;
+  width: 40%;
+  margin-left: 5%;
+  padding: 20px;
+  border-radius: 15px;
+}
+.experience-section {
+  background-image: url(../img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.full-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(255, 145, 0), rgb(223, 6, 96));
+  border-image-slice: 1;
+}
+.baby-web {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(255, 145, 0), rgb(6, 223, 71));
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  font-size: small;
+}
